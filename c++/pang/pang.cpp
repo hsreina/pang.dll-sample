@@ -28,7 +28,6 @@ DLLEXPORT int _pangya_client_decrypt(char *buffin, int size, char **buffout, int
 	*buffoutSize = size;
 
 	// *buffout is the pointer of the decrypted data starting with the packetId as a WORD
-
 	return 1;
 }
 
@@ -59,7 +58,6 @@ DLLEXPORT int _pangya_server_decrypt(char *buffin, int size, char **buffout, int
 	*buffoutSize = size;
 
 	// *buffout is the pointer of the decrypted data starting with the packetId as a WORD
-
 	return 1;
 }
 
@@ -85,6 +83,6 @@ DLLEXPORT void _pangya_free(char **buffout) {
 }
 
 // Not used for now but maybe one day
-DLLEXPORT UInt32 _deserialize(UInt32 deserialize) {
+DLLEXPORT UInt32 _pangya_deserialize(UInt32 deserialize) {
 	return deserialize;
 }
