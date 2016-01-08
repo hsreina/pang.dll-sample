@@ -1,0 +1,15 @@
+/c++/pang/Debug
+/c++/Debug
+/c++/pang/Release
+/c++/*.sdf
+/c++/*.suo
+/c++bcc32/*.dll
+/c++bcc32/*.ilc
+/c++bcc32/*.ild
+/c++bcc32/*.ilf
+/c++bcc32/*.ils
+/c++bcc32/*.lib
+/c++bcc32/*.tds
+/c++bcc32/*.bat
+/c++bcc32/obj/*.obj
+/c++/ipch/pang-9409c058/*.ipch
